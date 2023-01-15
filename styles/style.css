@@ -414,18 +414,23 @@ input[type=submit] {
         justify-content: space-around;
         align-items: center;
         margin-left: 288px;
+        width: 576px;
     }
     /* member section  */
+    .members-container{
+        width: 576px;
+        transform: translateX(200px);
+        height: 150vh;
+    }
     .member-list-comtainer{
         text-align: center;
-        transform: translateX(200px);
     }
     .member-images{
         display: grid;
         grid-template: repeat(1, 1fr);
         gap: 50px;
-        /* transform: translateX(120px); */
-        margin-left: 288px;
+        transform: translateX(240px);
+        width: 576px;
     }
     .member-picture img{
         width: 200px;
@@ -452,6 +457,6 @@ input[type=submit] {
     .footer{
         max-width: 576px;
         width: 100%;
-        margin-left: 140px;
+        margin-left: 200px;
     }
 }
