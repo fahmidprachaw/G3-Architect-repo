@@ -318,9 +318,11 @@ input[type=submit] {
 /* For mobile devices */
 @media only screen and (max-width: 576px) {
     .header{
-        max-width: 576px;
+        max-width: 500px;
         width: 100%;
-        margin: 0 50px;
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
     }
     .logo{
         font-size: 40px;
@@ -334,6 +336,8 @@ input[type=submit] {
         flex-direction: column-reverse;
         gap: 25px;
         margin-left: 120px;
+        align-items: center;
+        justify-content: center;
     }
     .banner-text{
         width: 560px;
@@ -354,7 +358,9 @@ input[type=submit] {
     .quick-list-features{
         margin: 0 5px;
         margin-bottom: 30px;
-        margin-left: 120px;
+        margin-left: 150px;
+        align-items: center;
+        justify-content: center;
     }
     .quick-list-images{
         grid-template-columns: repeat(1, 1Fr);
@@ -365,6 +371,14 @@ input[type=submit] {
         flex-direction: column-reverse;
         justify-content: center;
         align-items: center;
+        align-items: center;
+        justify-content: center;
+    }
+    .quick-list-text{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
     }
     .quick-list-images img{
         width: 450px;
@@ -376,6 +390,9 @@ input[type=submit] {
     /* feature section  */
     .features-container{
         flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        margin-left: 150px;
     }
     .features-title-container{
         width: 450px;
@@ -406,7 +423,8 @@ input[type=submit] {
     .fact-container{
         max-width: 570px;
         width: 100%;
-        text-align: center;
+        /* text-align: center; */
+        margin-left: 10px;
     }
     .fact-description{
         font-size: 14px;
