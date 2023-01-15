@@ -320,10 +320,9 @@ input[type=submit] {
     .header{
         max-width: 576px;
         width: 100%;
-        margin: 0 120px;
     }
     .logo{
-        font-size: 30px;
+        font-size: 40px;
     }
     nav ul{
         flex-direction: column;
@@ -351,9 +350,8 @@ input[type=submit] {
     }
     /* Quick list features section  */
     .quick-list-features{
-    margin: 0 5px;
-    margin-bottom: 30px;
-    margin: 0 120px;
+        margin: 0 5px;
+        margin-bottom: 30px;
     }
     .quick-list-images{
         grid-template-columns: repeat(1, 1Fr);
@@ -366,8 +364,8 @@ input[type=submit] {
         align-items: center;
     }
     .quick-list-images img{
-        width: 450;
-        height: 450;
+        width: 450px;
+        height: 450px;
     }
     .quick-list-text{
         text-align: center;
@@ -377,14 +375,14 @@ input[type=submit] {
         flex-direction: column;
     }
     .features-title-container{
-        width: 360px;
+        width: 450px;
     }
     .features-main-title{
         font-size: 35px;
         /* transform: translateX(-75px); */
     }
     .features-description{
-        width: 300px;
+        width: 400px;
         height: 150px;
         /* transform: translateX(-70px); */
         margin-bottom: 15px;
@@ -393,7 +391,7 @@ input[type=submit] {
         transform: translateX(-80px);
     } */
     .features-sub-description{
-        width: 300px;
+        width: 400px;
     }
     .feature-img-container img{
         width: 570px;
@@ -403,7 +401,7 @@ input[type=submit] {
     }
     /* Some fact section  */
     .fact-container{
-        max-width: 550px;
+        max-width: 570px;
         width: 100%;
         text-align: center;
     }
@@ -415,13 +413,19 @@ input[type=submit] {
         flex-direction: column;
         justify-content: space-around;
         align-items: center;
+        margin-left: 288px;
     }
     /* member section  */
+    .member-list-comtainer{
+        text-align: center;
+        transform: translateX(200px);
+    }
     .member-images{
         display: grid;
         grid-template: repeat(1, 1fr);
         gap: 50px;
         /* transform: translateX(120px); */
+        margin-left: 288px;
     }
     .member-picture img{
         width: 200px;
@@ -433,16 +437,21 @@ input[type=submit] {
     .member-position{
         font-size: 16px;
     }
+    /* sponspors secion */
+    .sponspor-text{
+        transform: translateX(200px);
+    }
     .sopnspor-logo{
         display: grid;
         grid-template-columns: repeat(1, 1fr);
         gap: 50px;
-        padding-left: 120px;
+        margin-left: 288px;
+
     }
     /* footer section  */
     .footer{
         max-width: 576px;
         width: 100%;
-        margin: 0 120px;
+        margin-left: 140px;
     }
 }
