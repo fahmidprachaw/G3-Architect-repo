@@ -69,6 +69,7 @@ input[type=submit] {
     background-color: #FF900E;
     color: white;
     border: 0;
+    margin-bottom: 130px;
 }
 .banner-picture img{
     max-width: 1200px;
@@ -342,11 +343,8 @@ input[type=submit] {
 /* For mobile devices */
 @media only screen and (max-width: 576px) {
     .header, .banner{
-        max-width: 500px;
-        width: 100%;
-        margin: 0 auto;
-        align-items: center;
-        justify-content: center;
+        width: 500px;
+        
     }
     .logo{
         font-size: 40px;
@@ -358,8 +356,14 @@ input[type=submit] {
     /* Quick list features section  */
     
     .quick-list-images{
-        grid-template-columns: repeat(1, 1Fr);
+        grid-template-columns: repeat(2, 1Fr);
+        gap: 10px;
         margin-bottom: 50px;
+    }
+    .quick-list-images img{
+        width: 250px;
+        height: 250px;
+        margin-left: 5px;
     }
     .quick-list{
         flex-direction: column-reverse;
@@ -367,6 +371,7 @@ input[type=submit] {
         align-items: center;
         align-items: center;
         justify-content: center;
+        margin-left: 15px;
     }
     .quick-list-text{
         display: flex;
@@ -381,10 +386,15 @@ input[type=submit] {
     .quick-title{
         width: 500px;
         padding-left: 50px;
+        margin-left: 50px;
     }
     .quick-description{
         width: 400px;
         padding-left: 50px;
+        margin-left: 50px;
+    }
+    #btn{
+        margin-left: 100px;
     }
     .quick-list-text{
         text-align: center;
@@ -395,6 +405,7 @@ input[type=submit] {
         justify-content: center;
         align-items: center;
         margin-left: 150px;
+        width: 50%;
     }
     .features-title-container{
         width: 450px;
@@ -434,28 +445,32 @@ input[type=submit] {
         width: 400px;
     }
     .fact-images{
-        flex-direction: column;
-        justify-content: space-around;
-        align-items: center;
-        margin-left: 288px;
-        width: 576px;
+        width: 570px;
+        display: grid;
+        height: 300px;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 10px;
+    }
+    .for-border{
+        width: 150px;
+        height: 150px;
+        margin-bottom: 0;
     }
     /* member section  */
     .members-container{
         width: 576px;
-        transform: translateX(200px);
-        height: 150vh;
+        margin-top: 130px;
+        
     }
     .member-list-comtainer{
         text-align: center;
     }
     .member-images{
-        display: grid;
-        grid-template: repeat(1, 1fr);
+        flex-wrap: wrap;
+        justify-content: center;
         gap: 50px;
         max-width: 576px;
         width: 100%;
-        margin: 0 auto;
     }
     .member-picture img{
         width: 200px;
@@ -471,20 +486,18 @@ input[type=submit] {
     .sponspor-text{
         margin-top: 200px;
         width: 500px;
-        margin-left: 150px;
+        margin-left: 40px;
     }
     .sopnspor-logo{
-        display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        display: flex;
         gap: 50px;
-        margin-left: 288px;
+        flex-wrap: wrap;
+        justify-content: center;
 
     }
     /* footer section  */
     .footer{
-        width: 500px;
-        height: 100%;
-        margin-left: 100px;
-        
+        width: 576px;
+        text-align: center;
     }
-}
+}  
