@@ -12,6 +12,7 @@
     width: 100%;
     margin: 0 auto;
     padding-top: 35px;
+    margin-bottom: 100px;
 }
 .logo{
     font-weight: 700;
@@ -80,6 +81,7 @@ input[type=submit] {
 .quick-list-features{
     margin: 0 130px;
     margin-bottom: 130px;
+    margin-top: 130px;
 }
 .quick-list{
     display: flex;
