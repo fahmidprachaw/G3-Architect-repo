@@ -318,8 +318,9 @@ input[type=submit] {
 /* For mobile devices */
 @media only screen and (max-width: 576px) {
     .header{
-        max-width: 560px;
+        max-width: 576px;
         width: 100%;
+        margin: 0 120px;
     }
     .logo{
         font-size: 30px;
@@ -334,28 +335,29 @@ input[type=submit] {
         gap: 25px;
     }
     .banner-text{
-        width: 500px;
+        width: 560px;
     }
     .banner-title{
         font-size: 45px;
     }
     .banner-description{
-        width: 450px;
+        width: 550px;
         padding-left: 20px;
         font-size: 14px;
     }
     .banner-picture img{
-        width: 412px;
-        height: 300px;
+        width: 570px;
+        height: 350px;
     }
     /* Quick list features section  */
     .quick-list-features{
     margin: 0 5px;
     margin-bottom: 30px;
+    margin: 0 120px;
     }
     .quick-list-images{
         grid-template-columns: repeat(1, 1Fr);
-        transform: translateX(-60px);
+        /* transform: translateX(-60px); */
         margin-bottom: 50px;
     }
     .quick-list{
@@ -364,8 +366,8 @@ input[type=submit] {
         align-items: center;
     }
     .quick-list-images img{
-        width: 150;
-        height: 150;
+        width: 450;
+        height: 450;
     }
     .quick-list-text{
         text-align: center;
@@ -375,26 +377,26 @@ input[type=submit] {
         flex-direction: column;
     }
     .features-title-container{
-        width: 260px;
+        width: 360px;
     }
     .features-main-title{
         font-size: 35px;
-        transform: translateX(-75px);
+        /* transform: translateX(-75px); */
     }
     .features-description{
-        width: 260px;
+        width: 300px;
         height: 150px;
-        transform: translateX(-70px);
+        /* transform: translateX(-70px); */
         margin-bottom: 15px;
     }
-    .features-sub-title-container{
+    /* .features-sub-title-container{
         transform: translateX(-80px);
-    }
+    } */
     .features-sub-description{
         width: 300px;
     }
     .feature-img-container img{
-        width: 415px;
+        width: 570px;
     }
     .feature-img-container button{
         transform: translateX(50px);
@@ -419,11 +421,11 @@ input[type=submit] {
         display: grid;
         grid-template: repeat(1, 1fr);
         gap: 50px;
-        transform: translateX(120px);
+        /* transform: translateX(120px); */
     }
     .member-picture img{
-        width: 100px;
-        height: 100px;
+        width: 200px;
+        height: 200px;
     }
     .member-name{
         font-size: 24px;
@@ -439,8 +441,8 @@ input[type=submit] {
     }
     /* footer section  */
     .footer{
-        max-width: 560px;
+        max-width: 576px;
         width: 100%;
-        margin: 0 auto;
+        margin: 0 120px;
     }
 }
