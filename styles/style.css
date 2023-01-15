@@ -1,0 +1,446 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+/* header section style  */
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 35px;
+}
+.logo{
+    font-weight: 700;
+    font-size: 45px;
+    color: #131313;
+}
+.logo-color{
+    color: #FF900E;
+}
+nav ul{
+    display: flex;
+    gap: 35px;
+}
+nav ul li{
+    list-style: none;
+}
+nav ul li a{
+    text-decoration: none;
+    color: #424242;
+}
+/* cover banner section style  */
+.banner{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    padding-top: 100px;
+}
+.banner-text{
+    text-align: center;
+    width: 700px;
+}
+.banner-title{
+    font-weight: 700;
+    font-size: 64px;
+    padding-bottom: 25px;
+    color: #131313;
+}
+.banner-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    padding-bottom: 35px;
+}
+input[type=submit] {
+    width: 180px;
+    height: 64px;
+    padding: 20px;
+    background-color: #FF900E;
+    color: white;
+    border: 0;
+}
+.banner-picture img{
+    max-width: 1200px;
+    height: 600px;
+    margin-bottom: 130px;
+}
+/* Quick list features section style  */
+.quick-list-features{
+    margin: 0 130px;
+    margin-bottom: 130px;
+}
+.quick-list{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+.quick-list-images{
+    display: grid;
+    grid-template-columns: repeat(2,1Fr);
+    gap: 5px;
+}
+.quick-list-images img{
+    width: 300px;
+    height: 300px;
+    display: grid;
+    grid-template-columns: 30px 30px;
+}
+.quick-list-text{
+    width: 530px;
+    height: 300px;
+    padding-right: 120px;
+}
+.quick-title{
+    font-weight: 500;
+    font-size: 45px;
+    padding-bottom: 24px;
+}
+.span1{
+    color: #727272;
+}
+.span2{
+    color: #FF900E;
+}
+.quick-description{
+    color: #727272;
+    font-size: 16px;
+    font-weight: 400;
+    padding-bottom: 30px;
+}
+/* feature section styles */
+.features-container{
+    display: flex;
+    align-items: center;
+}
+.features-title-container {
+    width: 586px;
+    height: 100vh;
+}
+
+.features-main-title {
+    width: 468px;
+    height: 106px;
+    font-weight: 700;
+    font-size: 45px;
+    line-height: 53px;
+    color: #131313;
+    padding: 5px 0 24px 15px;
+    border-left: 5px solid #FF900E;
+    margin-bottom: 24px;
+}
+
+.features-description {
+    width: 586px;
+    height: 78px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    color: #727272;
+    margin-bottom: 30px;
+    padding-right: 25px;
+}
+
+.features-sub-title-container {
+    width: 586px;
+    height: 171px;
+    background: #FFFFFF;
+    box-shadow: 0px 4px 30px rgba(0, 0, 0, 0.06);
+    border-radius: 8px;
+    margin-bottom: 20px;
+    padding: 10px;
+}
+
+.features-sub-title {
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 23px;
+    color: #131313;
+    margin-bottom: 10px;
+}
+
+.features-sub-description {
+    width: 514px;
+
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #050404;
+}
+
+.feature-img-container img {
+    width: 600px;
+    height: 110vh;
+    object-fit: cover;
+    transform: translateY(100px);
+}
+.feature-img-container button {
+    width: 300px;
+    height: 150px;
+    background-color: #FF900E;
+    border: none;
+    border-radius: 8px;
+    font-weight: 700;
+    font-size: 50px;
+    color: #FFFFFF;
+    padding: 25px 42px;
+    transform: translate(-70px, 10px);
+}
+.span3{
+    font-size: 20px;
+    color: #FFFFFF;
+}
+/* Some fact section styles */
+.fact-container{
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 130px;
+}
+.fact-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+    color: #131313;
+}
+.fact-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    width: 450px;
+    margin-bottom: 100px;
+}
+.fact-images{
+    display: flex;
+    justify-content: space-evenly;
+    text-align: center;
+}
+.for-border{
+    border: 1px solid #FF900E;
+    width: 200px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 180px;
+}
+.fact-images img{
+    margin-bottom: 10px;
+}
+.count{
+    font-weight: 600;
+    font-size: 40px;
+    color: #424242;
+    margin-bottom: 5px;
+}
+.img-title{
+    font-weight: 600;
+    font-size: 20px;
+    color: #424242
+}
+/* member section styles */
+.member-list-comtainer{
+    text-align: center;
+    margin-bottom: 100px;
+}
+.member-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.member-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+}
+.member-picture{
+    text-align: center;
+}
+.member-picture img{
+    width: 250px;
+    height: 250px;
+}
+.member-name{
+    font-weight: 600;
+    font-size: 30px;
+    margin-bottom: 10px;
+    color: #131313;
+}
+.member-position{
+    font-weight: 400;
+    font-size: 20px;
+    color: #424242;
+    margin-bottom: 10px;
+}
+/* sponspor section styles */
+.sponspor-text{
+    text-align: center;
+    margin-top: 150px;
+}
+.sponsor-title{
+    font-weight: 700;
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.sponspor-description{
+    font-weight: 400;
+    font-size: 16px;
+    color: #727272;
+    margin-bottom: 50px;
+}
+.sopnspor-logo{
+    filter: grayscale(100%);
+}
+/* footer section styles */
+.footer{
+    height: 100px;
+    background: #FFF4E7;
+    max-width: 1200px;
+    width: 100%;
+    margin: 0 auto;
+    margin-top: 130px;
+    margin-bottom: 250px;
+}
+.footer-text{
+    text-align: center;
+    color: #424242;
+    font-weight: 400;
+    font-size: 20px;
+    padding: 50px 0;
+}
+
+/* For media quary */
+
+/* For mobile devices */
+@media only screen and (max-width: 576px) {
+    .header{
+        max-width: 560px;
+        width: 100%;
+    }
+    .logo{
+        font-size: 30px;
+    }
+    nav ul{
+        flex-direction: column;
+        gap: 15px;
+    }
+    /* benner section  */
+    .banner{
+        flex-direction: column-reverse;
+        gap: 25px;
+    }
+    .banner-text{
+        width: 500px;
+    }
+    .banner-title{
+        font-size: 45px;
+    }
+    .banner-description{
+        width: 450px;
+        padding-left: 20px;
+        font-size: 14px;
+    }
+    .banner-picture img{
+        width: 412px;
+        height: 300px;
+    }
+    /* Quick list features section  */
+    .quick-list-features{
+    margin: 0 5px;
+    margin-bottom: 30px;
+    }
+    .quick-list-images{
+        grid-template-columns: repeat(1, 1Fr);
+        transform: translateX(-60px);
+        margin-bottom: 50px;
+    }
+    .quick-list{
+        flex-direction: column-reverse;
+        justify-content: center;
+        align-items: center;
+    }
+    .quick-list-images img{
+        width: 150;
+        height: 150;
+    }
+    .quick-list-text{
+        text-align: center;
+    }
+    /* feature section  */
+    .features-container{
+        flex-direction: column;
+    }
+    .features-title-container{
+        width: 260px;
+    }
+    .features-main-title{
+        font-size: 35px;
+        transform: translateX(-75px);
+    }
+    .features-description{
+        width: 260px;
+        height: 150px;
+        transform: translateX(-70px);
+        margin-bottom: 15px;
+    }
+    .features-sub-title-container{
+        transform: translateX(-80px);
+    }
+    .features-sub-description{
+        width: 300px;
+    }
+    .feature-img-container img{
+        width: 415px;
+    }
+    .feature-img-container button{
+        transform: translateX(50px);
+    }
+    /* Some fact section  */
+    .fact-container{
+        max-width: 550px;
+        width: 100%;
+        text-align: center;
+    }
+    .fact-description{
+        font-size: 14px;
+        width: 400px;
+    }
+    .fact-images{
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+    }
+    /* member section  */
+    .member-images{
+        display: grid;
+        grid-template: repeat(1, 1fr);
+        gap: 50px;
+        transform: translateX(120px);
+    }
+    .member-picture img{
+        width: 100px;
+        height: 100px;
+    }
+    .member-name{
+        font-size: 24px;
+    }
+    .member-position{
+        font-size: 16px;
+    }
+    .sopnspor-logo{
+        display: grid;
+        grid-template-columns: repeat(1, 1fr);
+        gap: 50px;
+        padding-left: 120px;
+    }
+    /* footer section  */
+    .footer{
+        max-width: 560px;
+        width: 100%;
+        margin: 0 auto;
+    }
+}
