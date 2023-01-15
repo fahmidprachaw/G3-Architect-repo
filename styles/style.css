@@ -320,6 +320,7 @@ input[type=submit] {
     .header{
         max-width: 576px;
         width: 100%;
+        margin: 0 50px;
     }
     .logo{
         font-size: 40px;
@@ -332,6 +333,7 @@ input[type=submit] {
     .banner{
         flex-direction: column-reverse;
         gap: 25px;
+        margin-left: 120px;
     }
     .banner-text{
         width: 560px;
@@ -352,6 +354,7 @@ input[type=submit] {
     .quick-list-features{
         margin: 0 5px;
         margin-bottom: 30px;
+        margin-left: 120px;
     }
     .quick-list-images{
         grid-template-columns: repeat(1, 1Fr);
