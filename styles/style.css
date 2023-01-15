@@ -71,6 +71,8 @@ input[type=submit] {
     color: white;
     border: 0;
     margin-bottom: 130px;
+    transition: transform .5s;
+    cursor: pointer;
 }
 .banner-picture img{
     max-width: 1200px;
@@ -290,6 +292,7 @@ input[type=submit] {
 .member-picture img{
     width: 250px;
     height: 250px;
+    cursor: pointer;
 }
 .member-name{
     font-weight: 600;
@@ -319,8 +322,14 @@ input[type=submit] {
     color: #727272;
     margin-bottom: 50px;
 }
-.sopnspor-logo{
-    filter: grayscale(100%);
+/* .sopnspor-logo{
+    
+} */
+.sopnspor-logo img{
+    transition: transform .5s;
+    filter: gray;
+    -webkit-filter: grayscale(100%);
+    cursor: pointer;
 }
 /* footer section styles */
 .footer{
@@ -339,14 +348,23 @@ input[type=submit] {
     font-size: 20px;
     padding: 50px 0;
 }
-
+/* hover style section  */
+input[type=submit]:hover{
+    background-color: #727272;
+    color: #FF900E;
+    transform: scale(1.2);
+}
+.sopnspor-logo img:hover{
+    transform: scale(1.2);
+    filter: none;
+  -webkit-filter: grayscale(0%);
+}
 /* For media quary */
 
 /* For mobile devices */
 @media only screen and (max-width: 576px) {
     .header, .banner{
         width: 500px;
-        
     }
     .logo{
         font-size: 40px;
